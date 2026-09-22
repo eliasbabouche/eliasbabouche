@@ -11,8 +11,6 @@ qualité des données en entrée et la reprise de l'outil après mon départ.
 Actuellement en stage de fin d'études chez **Bouygues Telecom** (Direction Exploitation et
 Déploiement), sur l'optimisation des processus de maintenance des réseaux 4G/5G.
 
-> **Je recherche un poste en data / IA ou en conseil à partir de septembre 2026.**
-
 ### Compétences
 
 | Domaine | Outils |
