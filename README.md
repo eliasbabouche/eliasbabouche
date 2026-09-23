@@ -11,6 +11,16 @@ qualité des données en entrée et la reprise de l'outil après mon départ.
 Actuellement en stage de fin d'études chez **Bouygues Telecom** (Direction Exploitation et
 Déploiement), sur l'optimisation des processus de maintenance des réseaux 4G/5G.
 
+### Projets
+
+Chaque projet part d'une question concrète, sur des données publiques que chacun peut vérifier.
+
+**Data**
+
+| Projet | La question, et ce que j'ai trouvé | Outils | Liens |
+|---|---|---|---|
+| Immobilier DVF | Le centre et la périphérie des grandes villes se rapprochent-ils ? Oui : sur 967 000 ventes nettoyées, l'écart de prix des appartements se resserre dans 9 villes sur 10 entre 2021 et 2025. | pandas · Streamlit · Plotly · pytest | [Dépôt](https://github.com/eliasbabouche/analyse-immobilier-dvf) · [Démo](https://analyse-immobilier-dvf.streamlit.app) |
+
 ### Compétences
 
 | Domaine | Outils |
