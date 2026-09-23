@@ -21,12 +21,13 @@ ne savent pas faire.
 
 ### Projets
 
-**[analyse-immobilier-dvf](https://github.com/eliasbabouche/analyse-immobilier-dvf)** — *Le centre et la périphérie des grandes villes françaises se rapprochent-ils ?*
-Analyse des transactions immobilières françaises (données DVF de la DGFiP), du fichier brut
-au tableau de bord interactif. Le nettoyage est le cœur du projet : les ventes multi-lots
-faussent les prix d'un facteur considérable si on les additionne naïvement.
-[**Démo en ligne**](https://analyse-immobilier-dvf.streamlit.app) ·
-[Notebook](https://github.com/eliasbabouche/analyse-immobilier-dvf/blob/main/notebooks/01_restitution.ipynb)
+Chaque projet part d'une question concrète, sur des données publiques que chacun peut vérifier.
+
+**Data**
+
+| Projet | La question, et ce que j'ai trouvé | Outils | Liens |
+|---|---|---|---|
+| Immobilier DVF | Le centre et la périphérie des grandes villes se rapprochent-ils ? Oui : sur 967 000 ventes nettoyées, l'écart de prix des appartements se resserre dans 9 villes sur 10 entre 2021 et 2025. | pandas · Streamlit · Plotly · pytest | [Dépôt](https://github.com/eliasbabouche/analyse-immobilier-dvf) · [**Démo**](https://analyse-immobilier-dvf.streamlit.app) · [Notebook](https://github.com/eliasbabouche/analyse-immobilier-dvf/blob/main/notebooks/01_restitution.ipynb) |
 
 ### En ce moment
 
@@ -35,8 +36,8 @@ production. Prochaine étape : un pipeline d'ingestion avec validation de schém
 automatique des ruptures de format — le genre de garde-fou dont l'absence se paie cher en
 production.
 
-En apprentissage en parallèle : machine learning appliqué (scikit-learn, interprétabilité),
-puis systèmes à base de modèles de langage et leur évaluation.
+En apprentissage en parallèle : machine learning appliqué et interprétabilité, puis les
+systèmes à base de modèles de langage et leur évaluation.
 
 ### Stack
 
@@ -45,7 +46,7 @@ puis systèmes à base de modèles de langage et leur évaluation.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=databricks&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
 
 **Restitution**
