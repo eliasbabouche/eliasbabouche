@@ -70,8 +70,8 @@ systèmes à base de modèles de langage et leur évaluation.
 | | |
 |---|---|
 | **Bouygues Telecom** | Stage de fin d'études (2026) — optimisation des processus de maintenance des réseaux 4G/5G |
-| **UPAG** | Stage développement agile — Vue.js / Node.js, Scrum et SAFe |
-| **Neiji** | Développement produit, startup santé mentale — application Flutter |
+| **UPAG** | Stage développement agile — outil de vote de confiance pour le PI Planning, Vue.js / Node.js, Scrum et SAFe |
+| **Neiji** | Développeur mobile, start-up santé mentale — version 1.0 de l'application en Flutter |
 | **Genius N7** | Responsable interne de l'association entrepreneuriale de l'ENSEEIHT |
 
 ### Contact
