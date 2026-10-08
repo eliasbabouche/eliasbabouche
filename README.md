@@ -30,13 +30,14 @@ Le détail de chacun, avec des démos interactives, est sur mon [portfolio](http
 | Projet | La question, et ce que j'ai trouvé | Outils | Liens |
 |---|---|---|---|
 | Immobilier DVF | Le centre et la périphérie des grandes villes se rapprochent-ils ? Oui : sur 967 000 ventes nettoyées, l'écart de prix des appartements se resserre dans 9 villes sur 10 entre 2021 et 2025. | pandas · Streamlit · Plotly · pytest | [Dépôt](https://github.com/eliasbabouche/analyse-immobilier-dvf) · [**Démo**](https://analyse-immobilier-dvf.streamlit.app) · [Notebook](https://github.com/eliasbabouche/analyse-immobilier-dvf/blob/main/notebooks/01_restitution.ipynb) |
+| Pipeline TGV | Peut-on faire tourner un pipeline seul chaque mois, sans qu'une source qui change de format ne fausse les chiffres ? Oui : bronze / silver / gold, contrat de données, 106 tests ; il a écarté 43 nombres de trains négatifs publiés par la SNCF et mesure 18,7 % de TGV en retard en 2026, un record depuis 2018. | pandera · dbt · DuckDB · Dagster · GitHub Actions | [Dépôt](https://github.com/eliasbabouche/pipeline-qualite-donnees) · [Rapport mensuel](https://github.com/eliasbabouche/pipeline-qualite-donnees/actions/workflows/pipeline_mensuel.yml) |
 
 ### En ce moment
 
 Je construis un portefeuille de projets data et IA, du pipeline de données jusqu'à la mise en
-production. Prochaine étape : un pipeline d'ingestion avec validation de schéma et détection
-automatique des ruptures de format — le genre de garde-fou dont l'absence se paie cher en
-production.
+production. Dernier terminé : un pipeline mensuel qui détecte seul les ruptures de format de sa
+source, testé de bout en bout. Prochaine étape : un assistant documentaire RAG, évalué sur des
+questions dont on connaît la réponse.
 
 En apprentissage en parallèle : machine learning appliqué et interprétabilité, puis les
 systèmes à base de modèles de langage et leur évaluation.
@@ -61,6 +62,9 @@ systèmes à base de modèles de langage et leur évaluation.
 
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
+![Dagster](https://img.shields.io/badge/Dagster-4F43DD?style=flat-square&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 **Également pratiqués** — MATLAB, C, Flutter/Dart, Vue.js, LaTeX, Power Automate, VBA
