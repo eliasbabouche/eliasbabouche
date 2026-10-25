@@ -1,6 +1,6 @@
 # Elias Babouche
 
-**Élève ingénieur ENSEEIHT — Sciences du Numérique, filière Télécommunications et Traitement du Signal**
+**Ingénieur data & IA · ENSEEIHT, promo 2026** (Sciences du Numérique, filière Télécommunications et Traitement du Signal)
 Data · IA · Nantes
 
 ![Recherche](https://img.shields.io/badge/Recherche-poste%20data%20%2F%20IA%20%C2%B7%20conseil-2ea44f?style=flat-square)
@@ -35,9 +35,12 @@ Le détail de chacun, avec des démos interactives, est sur mon [portfolio](http
 ### En ce moment
 
 Je construis un portefeuille de projets data et IA, du pipeline de données jusqu'à la mise en
-production. Dernier terminé : un pipeline mensuel qui détecte seul les ruptures de format de sa
-source, testé de bout en bout. Prochaine étape : un assistant documentaire RAG, évalué sur des
-questions dont on connaît la réponse.
+production. En cours : un [assistant documentaire RAG](https://github.com/eliasbabouche/assistant-documentaire-rag)
+sur 23 guides de la CNIL, qui cite ses sources et refuse de répondre quand l'information n'y est pas.
+Le jeu d'évaluation (44 questions, dont 12 sans réponse dans le corpus) a été écrit avant le
+système ; la recherche retrouve le bon passage dans les 5 premiers pour 75 % des questions.
+Prochaine étape : comparer un modèle local (Mistral) à l'API Claude sur les mêmes questions,
+puis superviser et servir le système (Langfuse, FastAPI, Docker).
 
 En apprentissage en parallèle : machine learning appliqué et interprétabilité, puis les
 systèmes à base de modèles de langage et leur évaluation.
