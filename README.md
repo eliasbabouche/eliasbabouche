@@ -3,7 +3,6 @@
 **Ingénieur data & IA · ENSEEIHT, promo 2026** (Sciences du Numérique, filière Télécommunications et Traitement du Signal)
 Data · IA · Nantes
 
-![Recherche](https://img.shields.io/badge/Recherche-poste%20data%20%2F%20IA%20%C2%B7%20conseil-2ea44f?style=flat-square)
 ![Localisation](https://img.shields.io/badge/Nantes-France-555?style=flat-square)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-elias--babouche-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elias-babouche/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-eliasbabouche.vercel.app-111?style=flat-square&logo=vercel&logoColor=white)](https://eliasbabouche.vercel.app)
