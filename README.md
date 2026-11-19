@@ -31,15 +31,16 @@ Le détail de chacun, avec des démos interactives, est sur mon [portfolio](http
 | Immobilier DVF | Le centre et la périphérie des grandes villes se rapprochent-ils ? Oui : sur 967 000 ventes nettoyées, l'écart de prix des appartements se resserre dans 9 villes sur 10 entre 2021 et 2025. | pandas · Streamlit · Plotly · pytest | [Dépôt](https://github.com/eliasbabouche/analyse-immobilier-dvf) · [**Démo**](https://analyse-immobilier-dvf.streamlit.app) · [Notebook](https://github.com/eliasbabouche/analyse-immobilier-dvf/blob/main/notebooks/01_restitution.ipynb) |
 | Pipeline TGV | Peut-on faire tourner un pipeline seul chaque mois, sans qu'une source qui change de format ne fausse les chiffres ? Oui : bronze / silver / gold, contrat de données, 106 tests ; il a écarté 43 nombres de trains négatifs publiés par la SNCF et mesure 18,7 % de TGV en retard en 2026, un record depuis 2018. | pandera · dbt · DuckDB · Dagster · GitHub Actions | [Dépôt](https://github.com/eliasbabouche/pipeline-qualite-donnees) · [Rapport mensuel](https://github.com/eliasbabouche/pipeline-qualite-donnees/actions/workflows/pipeline_mensuel.yml) |
 
+**IA**
+
+| Projet | La question, et ce que j'ai trouvé | Outils | Liens |
+|---|---|---|---|
+| Assistant documentaire RAG | Peut-on interroger 23 guides de la CNIL et obtenir des réponses sourcées, qui admettent « je ne sais pas » ? Sur 44 questions écrites avant le système, dont 12 sans réponse, l'API Claude répond correctement à 21 questions sur 32, contre 10 pour Mistral 7B en local, pour 0,018 $ par question ; exactitude jugée par un second modèle, contrôlé à l'aveugle. | bge-m3 · ChromaDB · Ollama · API Claude · pytest | [Dépôt](https://github.com/eliasbabouche/assistant-documentaire-rag) |
+
 ### En ce moment
 
 Je construis un portefeuille de projets data et IA, du pipeline de données jusqu'à la mise en
-production. En cours : un [assistant documentaire RAG](https://github.com/eliasbabouche/assistant-documentaire-rag)
-sur 23 guides de la CNIL, qui cite ses sources et refuse de répondre quand l'information n'y est pas.
-Le jeu d'évaluation (44 questions, dont 12 sans réponse dans le corpus) a été écrit avant le
-système ; la recherche retrouve le bon passage dans les 5 premiers pour 75 % des questions.
-Prochaine étape : comparer un modèle local (Mistral) à l'API Claude sur les mêmes questions,
-puis superviser et servir le système (Langfuse, FastAPI, Docker).
+production.
 
 En apprentissage en parallèle : machine learning appliqué et interprétabilité, puis les
 systèmes à base de modèles de langage et leur évaluation.
